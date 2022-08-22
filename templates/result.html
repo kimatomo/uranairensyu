@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="col-md-2 col-sm-2"></div>
+<div class="col-md-8 col-md-offset-2 cpl-sm-8">
+
+    </div>
+<div class="col-md-2 col-sm-2"></div><h2>結果が出ました</h2>
+    <h1>あなたは{{タイプです}}</h1>
+    <p><img src="{{yourType}}" alt="" class="img-fluid"></p>
+    <h2>【2022年あなたの運勢は？】</h2>
+    <p>{{ unsei2022 }}</p>
+    <h3>--- 【2022年運勢ランキング】 ---</h3>
+    <ul>
+        <li>第一位</li>
+    </ul>
+        <button class="btn btn-primary btn-lg" style="width:30%">
+            <a href='/' style="color:#fff;text-decoration:none">戻る</a>
+        </button>
+{% endblock %}
